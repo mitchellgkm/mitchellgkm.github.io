@@ -120,5 +120,8 @@ background-color: blanchedalmond;
 
 .plat {
     /*width: 1000px;*/
-    margin: auto;
+    /*margin: auto;*/
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
