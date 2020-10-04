@@ -39,8 +39,8 @@ h2 {
     text-align: center;
     font-size: large;
     color: white;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: grey;
     padding: 2px;
     border: 2px solid black;
