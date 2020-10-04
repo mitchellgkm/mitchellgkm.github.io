@@ -17,5 +17,34 @@
     vertical-align: top;
     padding-top: 0;
     margin-top: 0;
-    width: 170px;
 }
+
+hr {
+    border: 1px solid slategray;
+}
+
+body {
+    background-color: rgba(169, 209, 248, 0.753);
+    color: rgb(32, 36, 41)
+}
+
+/*
+#intro {
+    background-color: skyblue;
+}
+
+#projects {
+    background-color: cadetblue;
+}
+
+#experience {
+    background-color: darkcyan;
+}
+
+#skills {
+    background-color: mediumturquoise;
+}
+
+#contact {
+    background-color: dodgerblue;
+} */
