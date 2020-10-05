@@ -1,3 +1,24 @@
+#firstsection{
+    height: 30%;
+    background-color: thistle;
+    font-size: 0;
+}
+
+#secondsection{
+    height: 30%;
+    background-color: paleturquoise;
+    font-size: 0;
+}
+
+#thirdsection{
+    height: 30%;
+    background-color: palegoldenrod;
+    font-size: 0;
+}
+
+
+
+
 #header {
     background-color: rgb(64,71,103);
     color: white;
@@ -18,6 +39,19 @@
     text-decoration: none;
 }
 
+footer {
+    margin-top: 0px;
+    padding-top: 5px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(64,71,103);
+    color: white;
+    font-size: 16px;
+} 
+
+#footer {
+    font-size: 0;
+}
 
 .pp {
     
@@ -44,28 +78,13 @@ hr {
     border: 1px solid slategray;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     color: rgb(32, 36, 41);
     margin: 0;
+    height: 100%;
 }
 
-/*
-#intro {
-    background-color: skyblue;
-}
-
-#projects {
-    background-color: cadetblue;
-}
-
-#experience {
-    background-color: darkcyan;
-}
-
-#skills {
-    background-color: mediumturquoise;
-}
-
-#contact {
-    background-color: dodgerblue;
-} */
