@@ -1,19 +1,35 @@
 #firstsection{
-    height: 30%;
-    background-color: thistle;
+    height: 100%;
     font-size: 0;
 }
 
+#firstsection-firsthalf{
+    height: 100%;
+    background-color: thistle;
+    font-size: 0;
+    width: 50%;
+    float: left;
+}
+
+#firstsection-secondhalf{
+    height: 100%;
+    background-color: palevioletred;
+    font-size: 0;
+    width: 50%;
+    float: left;
+}
+
 #secondsection{
-    height: 30%;
+    height: 100%;
     background-color: paleturquoise;
     font-size: 0;
 }
 
 #thirdsection{
-    height: 30%;
+    height: 100%;
     background-color: palegoldenrod;
     font-size: 0;
+
 }
 
 
