@@ -33,14 +33,12 @@
 }
 
 
-
-
 #header {
     background-color: rgb(64,71,103);
     color: white;
     height: 50px;
     font-size: large;
-    
+    font-family: Arial;
 }
 
 
