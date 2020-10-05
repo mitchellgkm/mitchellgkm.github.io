@@ -1,3 +1,24 @@
+#header {
+    background-color: rgb(64,71,103);
+    color: white;
+    height: 50px;
+    font-size: large;
+    
+}
+
+
+#headertable {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.headercontent {
+    color: white;
+    text-decoration: none;
+}
+
+
 .pp {
     
     height: 150px;
@@ -24,8 +45,8 @@ hr {
 }
 
 body {
-    background-color: rgba(169, 209, 248, 0.753);
-    color: rgb(32, 36, 41)
+    color: rgb(32, 36, 41);
+    margin: 0;
 }
 
 /*
