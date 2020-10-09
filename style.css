@@ -50,6 +50,10 @@
   text-decoration: none;
 }
 
+.headercontent:hover {
+  color: black;
+}
+
 footer {
   margin-top: 0px;
   padding-top: 5px;
@@ -94,8 +98,16 @@ footer {
   margin-top: 0;
 }
 
+h1,
+h3 {
+  color: rgb(64, 71, 103);
+}
+
 hr {
-  border: 1px solid slategray;
+  border-top: 4px dotted slategray;
+  border-left: 0;
+  border-right: 0;
+  width: 10%;
 }
 
 html {
