@@ -67,6 +67,16 @@ footer {
     font-size: 0;
 }
 
+#logo {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(64,71,103);
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: smaller;
+    font-family: Arial;
+}
+
 .pp {
     
     height: 150px;
