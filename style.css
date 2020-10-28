@@ -106,4 +106,6 @@ table {
 
 .navbar-toggler-icon {
   background-image: url("crop_pp.png");
+  height: 60px;
+  width: 60px;
 }
