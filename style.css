@@ -8,10 +8,11 @@ h3 {
 }
 
 hr {
-  border-top: 4px dotted slategray;
+  border-top: 3px solid rgb(64, 71, 103);
   border-left: 0;
   border-right: 0;
-  width: 10%;
+  width: 40%;
+  margin: 0 auto;
 }
 
 html {
@@ -137,4 +138,25 @@ footer {
   vertical-align: top;
   padding-top: 0;
   margin-top: 0;
+}
+
+.nav-link {
+  color: rgb(64, 71, 103);
+  margin: 0 10px 0;
+}
+
+.navbar {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.collapse {
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(64, 71, 103);
+  color: whitesmoke;
 }

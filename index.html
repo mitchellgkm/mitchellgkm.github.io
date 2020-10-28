@@ -1,61 +1,95 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Home</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image" href="crop_pp.png">
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-    </head>
-    <body>
+<html lang="en">
+  <head>
+    <title>Calculators</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <div id="header">
-        <table id="headertable">
-            <div class="headercontent">
-            <tr>
-                <td><a href="index.html"  class="headercontent">HOME</a></td>
-                <td><a href="finance.html"  class="headercontent">FINANCE</a></td>
-                <td><a href="tech.html"  class="headercontent">TECH</a></td>
-                <td><a href="tools.html"  class="headercontent">TOOLS</a></td>
-                <td><a href="projects.html"  class="headercontent"">PROJECTS</a></td>
-                <td><a href="about.html"  class="headercontent">ABOUT</a></td>
-            </tr>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="calc_script.js"></script>
+    <link
+  </head>
+  <body>
+
+    <div class = "navbar-div">
+    <nav
+      class="navbar navbar-expand-sm"
+      style="background-color: whitesmoke;"
+    >
+
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav">
+            <li><a href="index.html"  class="nav-item nav-link">HOME</a></li>
+
+            <li><a href="finance.html"  class="nav-item nav-link">FINANCE</a></li>
+
+            <li><a href="tech.html"  class="nav-item nav-link">TECH</a></li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="dropdownTools"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >TOOLS</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdownTools">
+              <a class="dropdown-item" href="calculators.html">Calculators</a>
+              <a class="dropdown-item" href="budget.html">Budget Planner</a>
             </div>
-        </table>
-    </div>
+          </li>
+          <li class="nav-item dropdown"> 
+            <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="dropdownProjects"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >PROJECTS</a
+          >
+          <div class="dropdown-menu" aria-labelledby="dropdownProjects">
+            <a class="dropdown-item" href="websites.html">Websites</a>
+            <a class="dropdown-item" href="webapps.html">Web Apps</a>
+          </div>
+          </li>
 
-    <div id="firstsection">
-    <div id="firstsection-firsthalf">
-        <p>First Section First Half</p>
-    </div>
-
-    <div id="firstsection-secondhalf">
-        <p>First Section Second Half</p>
-    </div>
-    </div>
-
-    <div id="secondsection">
-        <p>Second Section</p>
-    </div>
-
-    <div id="thirdsection">
-        <p>Third Section</p>
-    </div>
-
-    <div id="footer">
-    <footer>
-        <p>Copyright © 2020 GM Enterprises</p>
-    </footer> 
-    </div> 
-
-        <script src="" async defer></script>
-    </body>
+          <li><a href="about.html"  class="nav-item nav-link">ABOUT</a></li>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <hr>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-

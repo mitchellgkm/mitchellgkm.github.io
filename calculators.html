@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Calculators</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -17,9 +17,63 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="calc_script.js"></script>
     <link
   </head>
   <body>
+
+    <div class = "navbar-div">
+    <nav
+      class="navbar navbar-expand-sm"
+      style="background-color: whitesmoke;"
+    >
+
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav">
+            <li><a href="index.html"  class="nav-item nav-link">HOME</a></li>
+
+            <li><a href="finance.html"  class="nav-item nav-link">FINANCE</a></li>
+
+            <li><a href="tech.html"  class="nav-item nav-link">TECH</a></li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="dropdownTools"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >TOOLS</a
+            >
+            <div class="dropdown-menu" aria-labelledby="dropdownTools">
+              <a class="dropdown-item" href="calculators.html">Calculators</a>
+              <a class="dropdown-item" href="budget.html">Budget Planner</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown"> 
+            <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="dropdownProjects"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >PROJECTS</a
+          >
+          <div class="dropdown-menu" aria-labelledby="dropdownProjects">
+            <a class="dropdown-item" href="websites.html">Websites</a>
+            <a class="dropdown-item" href="webapps.html">Web Apps</a>
+          </div>
+          </li>
+
+          <li><a href="about.html"  class="nav-item nav-link">ABOUT</a></li>
+        </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <hr>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
