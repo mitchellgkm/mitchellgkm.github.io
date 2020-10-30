@@ -114,18 +114,27 @@ li {
   width: 60px;
 }
 
-.calcdiv {
+form {
+  padding: 10px;
+}
+
+.calctab {
   margin: auto;
-  width: 50%;
+  padding: 5px;
+  width: 40%;
+  height: 70%;
   text-align: center;
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
+  border: 1px solid #404767;
+  border-radius: 4px;
+  background-color: rgb(240, 240, 240);
 }
 
 .calcinput {
-  width: 100%;
-  padding: 12px 20px;
+  width: 90%;
+  padding: 5px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #404767;
@@ -135,11 +144,56 @@ li {
 
 .calcbtn {
   margin: 10px;
+  border: 1px solid #404767;
+  color: #404767;
+  background-color: whitesmoke;
+  border-radius: 4px;
 }
 
-#result {
-  margin: 20px auto;
-  width: 50%;
+.innercalc {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.result {
+  margin: 20px 0;
+  width: 40%;
   text-align: center;
   font-size: 3rem;
+}
+
+@media (max-width: 750px) {
+  .result {
+    font-size: 2.5rem;
+  }
+}
+
+.tab {
+  margin: auto;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.tab button {
+  color: #404767;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  border: 1px solid #404767;
+  width: 34%;
+  margin: 0;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #404767;
+  color: whitesmoke;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #404767;
+  color: whitesmoke;
 }
