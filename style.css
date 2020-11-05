@@ -32,10 +32,15 @@ footer {
   width: 100%;
   background-color: #404767;
   color: whitesmoke;
-  font-size: 16px;
   position: fixed;
+  font-size: 16px;
   bottom: 0;
   padding-top: 10px;
+}
+
+footer p {
+  padding: 0;
+  margin-bottom: 0;
 }
 
 table {
@@ -59,12 +64,13 @@ li {
 #intro {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 .pp {
   height: 150px;
   width: 150px;
+  margin-right: 20px;
 }
 
 .exp {
@@ -114,8 +120,14 @@ li {
   width: 60px;
 }
 
+/* Calculator */
+
 form {
   padding: 10px;
+}
+
+label {
+  margin: 10px;
 }
 
 .calctab {
@@ -135,7 +147,7 @@ form {
 .calcinput {
   width: 90%;
   padding: 5px 20px;
-  margin: 8px 0;
+  margin: 8px 10px;
   display: inline-block;
   border: 1px solid #404767;
   border-radius: 4px;
@@ -196,4 +208,32 @@ form {
 .tab button.active {
   background-color: #404767;
   color: whitesmoke;
+}
+
+/* Blog */
+
+.blogpost {
+  width: 50%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+hr.blogrule {
+  border-top: 5px solid #404767;
+  border-left: 0;
+  border-right: 0;
+  width: 40%;
+  margin: 0 auto 20px;
+}
+
+/* .blogtitle {
+} */
+
+.blogdate {
+  margin: 10px 0;
+}
+
+.blogtext {
+  width: 80%;
+  margin: auto;
 }

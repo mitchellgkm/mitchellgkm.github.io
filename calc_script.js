@@ -67,7 +67,6 @@ function loan() {
   var loanamount = document.getElementById("loanamount").value;
 
   var interest = document.getElementById("interest").value / 1200;
-  console.log(interest);
 
   var months = document.getElementById("months").value;
 
@@ -83,7 +82,7 @@ function loan() {
       .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   }
 
-  if (result != NaN) {
+  if (result > 0) {
     document.getElementById("loanresult").innerHTML = "£" + result;
   }
 }
