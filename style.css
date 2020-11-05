@@ -213,7 +213,7 @@ label {
 /* Blog */
 
 .blogpost {
-  width: 50%;
+  width: 60%;
   margin: 5% auto;
   text-align: center;
 }
@@ -234,6 +234,6 @@ hr.blogrule {
 }
 
 .blogtext {
-  width: 80%;
+  width: 90%;
   margin: auto;
 }
