@@ -11,7 +11,7 @@ hr {
   border-top: 3px solid #404767;
   border-left: 0;
   border-right: 0;
-  width: 40%;
+  width: 67.5%;
   margin: 0 auto 20px;
 }
 
@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  text-align: center;
   color: #404767;
   background-color: whitesmoke;
   margin: 0;
@@ -49,6 +50,27 @@ table {
 
 li {
   margin: auto;
+}
+
+/* Index / Homepage */
+
+#hellotext {
+  margin: auto;
+  text-align: center;
+}
+
+#skylinediv {
+  background-image: url("trees4.jpg");
+}
+
+.homeimagediv {
+  padding: 100px 0px;
+  margin: auto;
+  background-color: green;
+  max-width: 100%;
+  height: 730px;
+  width: 1000px;
+  background-position: center;
 }
 
 #logo {
@@ -236,4 +258,64 @@ hr.blogrule {
 .blogtext {
   width: 90%;
   margin: auto;
+}
+
+/* Tech News Page */
+
+.newsheader {
+  margin: 20px 0px;
+}
+
+.newscard {
+  height: 300px;
+  border: 1px solid #404767;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.newscard img {
+  height: 150px;
+  width: 200px;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.newscard h3,
+.appcard a {
+  color: #404767;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* Web Apps Page */
+
+.appsheader {
+  margin: 20px 0px;
+}
+
+.appcard {
+  height: 300px;
+  border: 1px solid #404767;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.appcard img {
+  height: 150px;
+  width: 200px;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.appcard h3,
+.appcard a {
+  color: #404767;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.appcard p {
+  font-size: 1rem;
 }
