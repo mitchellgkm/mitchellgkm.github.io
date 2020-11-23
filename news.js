@@ -30,8 +30,6 @@ function getNews() {
         document
           .getElementById(`newstitle${i}`)
           .setAttribute("href", data.articles[i].url); //Insert url into title / image
-
-        // $(`#newstext${i}`).text(data.articles[i].description); //Insert each description -> removed description
       }
     });
 }
