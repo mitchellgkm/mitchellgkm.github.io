@@ -13,11 +13,11 @@ function getNews() {
   fetch(
     "https://gnews.io/api/v4/top-headlines?q=technology&lang=en&country=us&token=e06bf95933475a42fa3991b29f5cd00e"
   ) //GET request to Gnews server
-    .then(function (response) {
+    .then((response) =>
       //Convert the response into a JSON object
-      return response.json();
-    })
-    .then(function (data) {
+      response.json()
+    )
+    .then((data) => {
       //Access the JSON object
       for (var i = 0; i < 8; i++) {
         document
