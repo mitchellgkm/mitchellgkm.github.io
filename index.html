@@ -32,75 +32,90 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section id="biography">
-      <div id="background">
-        <div class="container">
-          <img src="crop_pp.png" class="pp" title="hello" />
-          <div id="hellotext">
-            <h1><strong>Hi there, my name is Guy</strong></h1>
-            <h3>I'm a London-based consultant and web developer</h3>
-            <br />
-            <h3>
-              If you like what you see in my portfolio, please get in touch: If
-              you like what you see in my portfolio, please get in touch: If you
-              like what you see in my portfolio, please get in touch:
-            </h3>
-            <br />
-            <h3>
-              If you like what you see in my portfolio, please get in touch:
-            </h3>
-          </div>
-          <div id="contactlogos">
-            <a id="email-logo" href=""><i class="far fa-envelope"></i></a>
-            <a id="phone-logo" href=""><i class="fas fa-phone"></i></a>
-            <a
-              id="linkedin-logo"
-              href="https://www.linkedin.com/in/guy-mitchell/"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a id="github-logo" href="https://github.com/mitchellgkm"
-              ><i class="fab fa-github"></i
-            ></a>
-          </div>
-          <div id="bio-arrow">
-            <a href="#portfoliodiv"><i class="fas fa-chevron-down"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="portfolio">
-      <div class="container" id="portfoliodiv">
-        <div id="portfoliobuttons">
-          <button id="allbutton" class="btn portfoliobutton selected">
-            All
-          </button>
-          <button id="appbutton" class="btn portfoliobutton">Apps</button>
-          <button id="sitebutton" class="btn portfoliobutton">Sites</button>
-        </div>
-        <div id="portfoliocards">
-          <div class="portfoliocard">
-            <div class="card text-left">
-              <img class="card-img-top" src="holder.js/100px180/" alt="" />
-              <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Body</p>
-              </div>
+    <main>
+      <section id="biography">
+        <div class="background">
+          <ul id="navbar">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About / Contact</a></li>
+          </ul>
+          <div class="container" id="biography-container">
+            <!-- <img src="crop_pp.png" class="pp" title="hello" /> -->
+            <h1><strong>Hi, my name is Guy</strong></h1>
+            <div id="hellotext">
+              <h3>I'm a London-based consultant and web developer.</h3>
+              <br />
+              <h3>
+                I'm passionate about the intersection of good design, great
+                products and amazing user experiences.
+              </h3>
+              <br />
+            </div>
+            <div id="bio-arrow">
+              <a href="#portfoliodiv"><i class="fas fa-chevron-down"></i></a>
             </div>
           </div>
-          <div class="portfoliocard"></div>
-          <div class="portfoliocard"></div>
-
-          <div class="portfoliocard"></div>
-          <div class="portfoliocard"></div>
-          <div class="portfoliocard"></div>
-
-          <div class="portfoliocard"></div>
-          <div class="portfoliocard"></div>
-          <div class="portfoliocard"></div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section id="portfolio">
+        <div class="container" id="portfoliodiv">
+          <div id="portfoliobuttons">
+            <button id="allbutton" class="btn portfoliobutton selected">
+              All
+            </button>
+            <button id="appbutton" class="btn portfoliobutton">Apps</button>
+            <button id="sitebutton" class="btn portfoliobutton">Sites</button>
+          </div>
+        </div>
+        <div id="portfoliocards">
+          <div class="portfolio-row">
+            <div class="portfolio-item"></div>
+            <div class="portfolio-item"></div>
+            <div class="portfolio-item"></div>
+          </div>
+          <div class="portfolio-row">
+            <div class="portfolio-item"></div>
+            <div class="portfolio-item"></div>
+            <div class="portfolio-item"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="background">
+          <div class="container">
+            <img src="crop_pp.png" class="pp" title="hello" />
+            <div id="hellotext">
+              <h1><strong>Hi, my name is Guy</strong></h1>
+              <h3>I'm a London-based consultant and web developer</h3>
+              <br />
+              <h3>
+                I'm passionate about the intersection of good design, great
+                products and amazing user experiences.
+              </h3>
+              <br />
+              <h3>
+                If you like what you see in my portfolio, please get in touch
+                below.
+              </h3>
+            </div>
+            <div id="contact-logos">
+              <a id="email-logo" href=""><i class="far fa-envelope"></i></a>
+              <a id="phone-logo" href=""><i class="fas fa-phone"></i></a>
+              <a
+                id="linkedin-logo"
+                href="https://www.linkedin.com/in/guy-mitchell/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a id="github-logo" href="https://github.com/mitchellgkm"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <section id="footer">
       <footer>

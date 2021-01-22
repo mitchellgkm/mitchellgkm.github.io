@@ -11,15 +11,34 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+#navbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2%;
+  height: 3%;
+  width: 20%;
+}
+
+#navbar li {
+  list-style-type: none;
+}
+
+#navbar a {
+  color: whitesmoke;
+}
+
+#navbar a:hover {
+  text-decoration: none;
+}
+
 footer {
   height: 40px;
   width: 100%;
-  background-color: #404767;
+  background-color: #1c2033;
   color: whitesmoke;
   font-size: 16px;
   bottom: 0;
   padding-top: 10px;
-  margin-top: 2%;
 }
 
 footer p {
@@ -29,10 +48,19 @@ footer p {
 
 /* Biography Section */
 
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
 #hellotext {
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   width: 90%;
+  line-height: 2;
 }
 
 .container {
@@ -42,16 +70,27 @@ footer p {
   border-radius: 10px;
 }
 
-#background {
-  padding: 2% 0 1%;
+#biography {
+  height: 100vh;
+}
+
+.background {
   height: 100%;
   background: rgb(2, 0, 36);
   background: linear-gradient(
-    90deg,
+    45deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(64, 71, 103, 1) 64%,
-    rgba(0, 212, 255, 1) 100%
+    rgb(0, 153, 255) 100%
   );
+}
+
+#biography-container {
+  padding-top: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .pp {
@@ -89,25 +128,18 @@ footer p {
   color: whitesmoke;
 }
 
-#portfoliocards {
-  height: 1500px;
-  margin: auto;
-  margin-top: 3%;
+.portfolio-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.portfolio-item {
+  width: 33.3333333%;
+  height: 500px;
   border: 1px solid black;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: (4, 1fr);
 }
 
-.portfoliocard {
-  grid-column: auto;
-  grid-row: auto;
-}
-
-.card {
-  height: 100%;
-  border: 1px solid red;
-}
+/* About */
 
 /* Media */
 
@@ -126,5 +158,9 @@ footer p {
 
   .btn {
     font-size: 0.66rem;
+  }
+
+  .container {
+    padding-top: 10%;
   }
 }
